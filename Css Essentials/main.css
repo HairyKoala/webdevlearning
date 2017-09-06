@@ -1,0 +1,24 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background: center;
+    background-image: url("../Test1/img/koala.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+
+}
+
+.secondDivTag{
+    border:inset;
+}
+
+img{
+    border:groove;
+    border-radius: 100%;
+    padding: 20px;
+    margin:20px;
+}
