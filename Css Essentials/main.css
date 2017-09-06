@@ -17,8 +17,11 @@ div {
 }
 
 img{
+    width: 200px;
     border:groove;
     border-radius: 100%;
     padding: 20px;
     margin:20px;
+    box-sizing: border-box;
+    /*box-sizing border-box forces the img to remain in width of 200px and if you increase padding you only shrink the image*/
 }
