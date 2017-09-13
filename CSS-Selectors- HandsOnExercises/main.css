@@ -1,0 +1,21 @@
+html {
+    background-color: beige;}
+
+body{
+    border: 3px solid black;
+    width: 60%;
+    background-color: chartreuse;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    border-radius: 100%;
+    border: 10px groove gold;
+    margin:10px auto;}
+
+#primary{
+    color:red}
+
+#secondary{
+    color: blueviolet;}
