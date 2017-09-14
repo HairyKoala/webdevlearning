@@ -1,0 +1,23 @@
+p {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-decoration: line-through;
+    text-indent: 20px;
+    text-shadow: 5px 2px 2px red;
+}
+
+h1{
+    font-size: 160px;
+   text-shadow: 2px 2px 2px blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
