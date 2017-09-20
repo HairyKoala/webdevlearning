@@ -1,0 +1,32 @@
+body{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
+
+    height: 500px;
+
+}
+
+div{
+
+    height:100px;
+    width:100px;
+    border:1px solid blue;
+
+}
+
+.mofo{
+    /*align-self: center;*/
+    flex-grow: 2;
+    order:2;
+
+}
+
+.mofo2{
+    flex-grow:1;
+    order:1;
+
+}
