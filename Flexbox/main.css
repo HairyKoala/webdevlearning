@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: baseline;
+    /*align-items: center;*/
+
+    height:700px;
+
+}
+
+div{
+    /*to center txt in divs i used this method below*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    height: 100px;
+    width: 100px;
+    border:1px solid blue;
+
+}
+
+/*#center{*/
+    /*align-items: center;*/
+/*}*/

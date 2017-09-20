@@ -1,0 +1,30 @@
+body{
+    border: 1px solid black;
+}
+nav{
+    border:1px solid blue;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    font-size: 2rem;
+    box-sizing: border-box;
+    border:1px solid
+    red;
+    display: inline-block;
+    width: 75%;
+}
