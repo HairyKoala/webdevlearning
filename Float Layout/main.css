@@ -1,0 +1,18 @@
+div,img {
+    border:2px solid blue;
+    margin:20px;
+    /*overflow: auto;*/
+}
+
+#one{
+    float:right;
+}
+
+#two{
+    float:left;
+}
+
+#three{
+    clear: left;
+    /*clear:both*/
+}

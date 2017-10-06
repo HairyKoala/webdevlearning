@@ -1,0 +1,20 @@
+body{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 500px;
+}
+
+.menu{
+    position: absolute;
+    width:100px;
+    border-right:1px ridge hotpink;
+    /*just a test*/
+    
+
+}
+
+.text{
+    margin-left:150px;
+}

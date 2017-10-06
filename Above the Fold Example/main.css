@@ -1,0 +1,106 @@
+html,body, div, h2, h3 {
+    padding:0;
+    border:0;
+    margin:0;
+    font-family: 'Cantarell', sans-serif;
+    color:whitesmoke;
+}
+
+button{
+    background-color: transparent;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 700;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#idx-atf{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-flow:column wrap;*/
+    text-align: center;
+
+    background-color: #5f5f5f;
+
+    /*https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image*/
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Test1/img/ehmir-bautista-364387.jpg");
+
+    background-repeat: no-repeat ;
+    background-position: bottom;
+    background-size:cover;
+    background-origin: border-box;
+    background-attachment: fixed;
+    text-shadow: 2px 3px 2px black;
+}
+
+#idx-atf2{
+    height:50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*flex-flow:column wrap;*/
+    text-align: center;
+
+    background-color: #5f5f5f;
+
+    /*https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image*/
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Test1/img/butterfly-734654_1920.jpg");
+
+    background-repeat: no-repeat ;
+    background-position: bottom;
+    background-size:cover;
+    background-origin: border-box;
+    background-attachment: fixed;
+}
+
+.testclass{
+    /*height: 10vh;*/
+    background-color: whitesmoke;
+    border:1px solid blanchedalmond;
+    width: 100%;
+}
+
+.idx-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column wrap;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size:1.2rem;
+}
+
+button{
+    font-size:1rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.headers{
+    padding:2px;
+    margin:10px;
+    margin-bottom:20px;
+
+}
+button:hover{
+    background-color: cornflowerblue;
+}
